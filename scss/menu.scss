@@ -1,0 +1,40 @@
+@media screen and (max-width:800px){
+    header{
+        #elementosHeader{
+            padding: 15px 20px;
+            ul{
+                display: none;
+            }
+
+            #botao_menu{
+                display: initial;
+                width: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+
+    #quartos{
+        padding: 50px 0px;
+
+        #container_quartos{
+            #a,#b{
+                width: 100vw;
+            }
+        }
+
+        #container_quartos3{
+            #c,#d,#e{
+                width: 100vw;
+                margin-top: 20px;
+            }
+        }
+
+    }
+    
+   
+   
+}

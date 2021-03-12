@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+  header #elementosHeader {
+    padding: 15px 20px;
+  }
+  header #elementosHeader ul {
+    display: none;
+  }
+  header #elementosHeader #botao_menu {
+    display: initial;
+    width: 30px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #quartos {
+    padding: 50px 0px;
+  }
+  #quartos #container_quartos #a, #quartos #container_quartos #b {
+    width: 100vw;
+  }
+  #quartos #container_quartos3 #c, #quartos #container_quartos3 #d, #quartos #container_quartos3 #e {
+    width: 100vw;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=menu.css.map */
