@@ -1,3 +1,37 @@
+@media screen and (max-width:890px){
+    
+    #specialOffers{
+        #specialServices{
+            padding: 0px;
+
+            img{
+                height: auto;
+            }
+
+            .servicosSpeciais{
+                width: 70vw;
+                margin: 0px;
+            }
+        }
+
+    }
+}
+
+@media screen and(max-width:857px){
+
+    
+    #quartos{
+        #container_quartos3{
+            #c,#d,#e{
+               width: 500px;
+            }
+        }
+
+    }
+
+
+}
+
 @media screen and (max-width:800px){
     header{
         #elementosHeader{
@@ -22,6 +56,7 @@
 
         #container_quartos{
             #a,#b{
+                margin: 20px 0px;
                 width: 100vw;
             }
         }
@@ -30,6 +65,31 @@
             #c,#d,#e{
                 width: 100vw;
                 margin-top: 20px;
+            }
+        }
+
+    }
+
+    #specialOffers{
+        #specialServices{
+            padding: 0px;
+
+            img{
+                height: auto;
+            }
+
+            .servicosSpeciais{
+                width: 100vw;
+                margin: 0px;
+            }
+        }
+
+    }
+
+    #quartos{
+        #container_quartos3{
+            #c,#d,#e{
+                margin: 10px 0px;
             }
         }
 
